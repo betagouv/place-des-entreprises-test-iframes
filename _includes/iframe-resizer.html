@@ -1,0 +1,10 @@
+{% if page.with_iframe %}
+  <script src="{{ "/assets/js/iframeSizer.min.js" | relative_url }}"></script>
+  <script>
+    console.log('script iframe')
+    const iframeContainer = document.querySelector("[data-iframe='true']")
+    console.log(iframeContainer)
+    const iframes = iFrameResize( { log: true }, "[data-iframe='true']" );
+    console.log(iframes)
+  </script>
+{% endif %}
