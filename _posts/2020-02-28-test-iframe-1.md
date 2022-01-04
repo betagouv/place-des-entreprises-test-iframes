@@ -13,4 +13,4 @@ Service public simple et rapide : vous êtes rappelé par **LE** conseiller qui 
 
 Echanger avec un conseiller pour :
 
-<iframe data-iframe="true" src="https://reso-staging.osc-fr1.scalingo.io/aide-entreprise/iframe-test-1" scrolling="no"></iframe>
+<iframe data-iframe="true" src="https://reso-staging.osc-fr1.scalingo.io/aide-entreprise/iframe-test-1" frameborder="0"></iframe>

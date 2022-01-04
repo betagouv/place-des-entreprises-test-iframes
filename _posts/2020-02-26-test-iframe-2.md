@@ -5,6 +5,7 @@ subtitle: Deuxième iframe
 tags: [iframe, test, narrow]
 comments: false
 full-width: true
+with_iframe: true
 ---
 
 Service public simple et rapide : vous êtes rappelé par **LE** conseiller qui peut vous aider.

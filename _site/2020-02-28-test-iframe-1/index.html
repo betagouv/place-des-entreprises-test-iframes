@@ -188,7 +188,7 @@
 
 <p>Echanger avec un conseiller pour :</p>
 
-<iframe data-iframe="true" src="https://reso-staging.osc-fr1.scalingo.io/aide-entreprise/iframe-test-1" scrolling="no"></iframe>
+<iframe data-iframe="true" src="https://reso-staging.osc-fr1.scalingo.io/aide-entreprise/iframe-test-1" frameborder="0"></iframe>
 
       </article>
 
@@ -222,11 +222,11 @@
       
   <script src="/assets/js/iframeSizer.min.js"></script>
   <script>
-    console.log('script iframe')
     const iframeContainer = document.querySelector("[data-iframe='true']")
-    console.log(iframeContainer)
-    const iframes = iFrameResize( { log: true }, "[data-iframe='true']" );
-    console.log(iframes)
+    const iframes = iFrameResize( {
+      log: true,
+      heightCalculationMethod: 'bodyOffset'
+    }, "[data-iframe='true']" );
   </script>
 
 
