@@ -15,7 +15,11 @@
   <meta name="author" content="Place des Entreprises">
   
 
-  <meta name="description" content="Démonstration du fonctionnement des iframes (redimensionnement, etc)">
+  <meta name="description" content="Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur Place des entreprises, avec redimensionnement automatique gérée par script (iframeResizer)
+
+Service public simple et rapide : vous êtes rappelé par LE conseiller qui peut vous aider.
+
+Echanger avec un conseiller pour :">
 
   
 
@@ -81,7 +85,11 @@
   
   <meta property="og:site_name" content="Institut de Test d'Iframes">
   <meta property="og:title" content="Démonstration iframe">
-  <meta property="og:description" content="Démonstration du fonctionnement des iframes (redimensionnement, etc)">
+  <meta property="og:description" content="Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur Place des entreprises, avec redimensionnement automatique gérée par script (iframeResizer)
+
+Service public simple et rapide : vous êtes rappelé par LE conseiller qui peut vous aider.
+
+Echanger avec un conseiller pour :">
 
   
 
@@ -100,7 +108,11 @@
   <meta name="twitter:creator" content="@">
 
   <meta property="twitter:title" content="Démonstration iframe">
-  <meta property="twitter:description" content="Démonstration du fonctionnement des iframes (redimensionnement, etc)">
+  <meta property="twitter:description" content="Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur Place des entreprises, avec redimensionnement automatique gérée par script (iframeResizer)
+
+Service public simple et rapide : vous êtes rappelé par LE conseiller qui peut vous aider.
+
+Echanger avec un conseiller pour :">
 
   
 
@@ -154,10 +166,6 @@
         <div class="post-heading">
           <h1>Démonstration iframe</h1>
           
-            
-              <h2 class="post-subheading">Démonstration du fonctionnement des iframes (redimensionnement, etc)</h2>
-            
-          
 
           
             <span class="post-meta">Le 26/10/2020</span>
@@ -184,13 +192,13 @@
       
 
       <article role="main" class="blog-post">
-        <p><em>Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur <a href="https://place-des-entreprises.beta.gouv.fr/">Place des entreprises</a></em></p>
+        <p><em>Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur <a href="https://place-des-entreprises.beta.gouv.fr/">Place des entreprises</a>, avec redimensionnement automatique gérée par script (iframeResizer)</em></p>
 
 <p>Service public simple et rapide : vous êtes rappelé par <strong>LE</strong> conseiller qui peut vous aider.</p>
 
 <p>Echanger avec un conseiller pour :</p>
 
-<iframe data-iframe="true" src="https://reso-staging.osc-fr1.scalingo.io/aide-entreprise/iframe-test-2" frameborder="0"></iframe>
+<iframe data-iframe="true" src="https://reso-staging.osc-fr1.scalingo.io/aide-entreprise/iframe-test-2" frameborder="0" title="Formulaire de demande entreprise"></iframe>
 
       </article>
 
@@ -218,7 +226,6 @@
       
   <script src="/assets/js/iframeSizer.min.js"></script>
   <script>
-    const iframeContainer = document.querySelector("[data-iframe='true']")
     const iframes = iFrameResize( {
       log: true,
       heightCalculationMethod: 'bodyOffset'

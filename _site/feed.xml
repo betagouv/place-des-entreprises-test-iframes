@@ -14,8 +14,8 @@
       <item>
         <title>Démonstration iframe</title>
         <description>
-          Démonstration du fonctionnement des iframes (redimensionnement, etc) - 
-          Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur Place des entreprises
+          
+          Il s’agit ici d’une iframe intégrant la totalité des sujets présents sur Place des entreprises, avec redimensionnement automatique gérée par script (iframeResizer)
 
 Service public simple et rapide : vous êtes rappelé par LE conseiller qui peut vous aider.
 
