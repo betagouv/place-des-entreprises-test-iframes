@@ -1,13 +1,14 @@
 ---
 layout: post
-title: Iframe 2
-subtitle: Deuxième iframe
-tags: [iframe, test, narrow]
+title: Démonstration iframe
+subtitle: Démonstration du fonctionnement des iframes (redimensionnement, etc)
+tags: [iframe, demonstration]
 comments: false
 full-width: true
 with_iframe: true
-published: false
 ---
+
+*Il s'agit ici d'une iframe intégrant la totalité des sujets présents sur [Place des entreprises](https://place-des-entreprises.beta.gouv.fr/)*
 
 Service public simple et rapide : vous êtes rappelé par **LE** conseiller qui peut vous aider.
 

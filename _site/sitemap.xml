@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>http://localhost:4000/2020-02-25-test-iframe-3/</loc>
-<lastmod>2020-02-25T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2020-02-26-test-iframe-2/</loc>
-<lastmod>2020-02-26T00:00:00+01:00</lastmod>
-</url>
-<url>
-<loc>http://localhost:4000/2020-02-28-test-iframe-1/</loc>
-<lastmod>2020-02-28T00:00:00+01:00</lastmod>
+<loc>http://localhost:4000/2020-10-26-demonstration-iframe/</loc>
+<lastmod>2020-10-26T00:00:00+01:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/aboutme/</loc>
