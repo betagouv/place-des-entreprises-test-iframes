@@ -12,6 +12,17 @@
     
     
       <item>
+        <title>Test des paramètres matomo</title>
+        <description>
+          
+          Il s’agit ici de tester les liens vers Place des entreprises, quand ils contiennent des paramètres matomo Local Lien entreprendre avec mtm : localhost:3000/?mtm_campaign=entreprendre&amp;amp;mtm_kwd=F12345 Lien entreprendre avec pk : localhost:3000/?pk_campaign=entreprendre&amp;amp;pk_kwd=F54321 Lien entreprendre minimaliste : localhost:3000/?mtm_campaign=entreprendre Lien expérimentation te : http://localhost:3000/?mtm_campaign=orientation-partenaire&amp;amp;mtm_kwd=experimentation-te Lien googleads : http://localhost:3000/?mtm_campaign=googleads-12345&amp;amp;mtm_kwd=639623625060-opco Staging Lien entreprendre avec mtm :...
+        </description>
+        <pubDate>Wed, 26 Oct 2022 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/2022-10-26-matomo-params/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-10-26-matomo-params/</guid>
+      </item>
+    
+      <item>
         <title>Démonstration iframe</title>
         <description>
           
